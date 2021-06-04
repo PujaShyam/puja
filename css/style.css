@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: #999966;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.page-header {
+    padding: 30px 0;
+}
+
+.menu {
+    padding-top: 17px;
+}
+
+.banner {
+    background-image: url(../images/banner-food.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 221px 0px 105px 0px;
+    color: #fff;
+}
+
+.banner h3 {
+    color: #999966;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 56px;
+    text-transform:capitalize;
+}
+
+.banner .btn {
+    background-color: #ab3f1b;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 19px 36px;
+}
+
+.banner h1 {
+    padding: 37px 0px 53px 0px;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.banner p {
+    padding-bottom: 57px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.about {
+    background-color: #ead6af;
+    padding: 98px 0px;
+
+}
+
+.about h3 {
+    color: #999966;
+    font-size: 56px;
+    letter-spacing: 1px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.about .btn {
+    background-color: #ab3f1b;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 50px;
+}
+
+.about p {
+    padding: 35px 0px 63px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.gallery {
+    text-align: center;
+    padding-bottom: 97px;
+}
+
+.gallery h3 {
+    color: #999966;
+    padding-top: 97px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.gallery h2 {
+    text-transform: uppercase;
+    padding-top: 29px;
+    padding-bottom: 36px;
+    font-weight: 400;
+}
+
+.gallery-img .box-img {
+    width: 100%;
+}
+
+.gallery-img {
+    margin: 14px 0px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 150px 0;
+    opacity: 0;
+
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.client {
+    background-image: url(../images/sec1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 57px 0;
+    position: relative;
+   
+
+}
+
+.client .wrap-box {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.client::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 190px 0;
+
+}
+
+.client h3 {
+    color: #999966;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.client h2 {
+    padding-bottom: 55px;
+}
+
+.client p {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding: 30px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.client h5 {
+    padding-top: 22px;
+}
+
+.client .single-image {
+    border: 3px solid #fff;
+}
+
+.fresh {
+    background-color: #ead6af;
+    padding: 83px 0;
+    text-align: center;
+}
+
+.meals h3 {
+    color: #999966;
+    padding: 29px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.meals p {
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.bottom {
+    background-color: #0b0d0f;
+    padding: 79px 0;
+    color: #fff;
+}
+
+.bottom p {
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 200;
+    letter-spacing: 1px;
+
+}
+
+.bottom .btn {
+    background-color: #ab3f1b;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 23px 38px;
+
+}
+
+.bottom h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 49px 0 25px;
+
+    letter-spacing: 3px;
+}
+
+.bottom h4 {
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.bottom h5 {
+    padding: 28px 0 43px;
+    font-size: 18px;
+    color: #999966;
+
+}
+
+.bottom-line {
+
+    background-color: #16191e;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.bottom-line p {
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon li {
+    padding: 0 5px;
+}
+
+.icon li a {
+    color: #fff;
+}
+
+.ejob {
+    color: #999966;
+}
